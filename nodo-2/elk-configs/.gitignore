@@ -1,0 +1,30 @@
+# Archivos sensibles - NO commiter a Git
+
+# Credenciales y usuarios
+users
+users_roles
+*.keystore
+*.p12
+*.pem
+*.key
+
+# Certificados
+certs/
+http_ca.crt
+
+# Logs (no incluir en repo)
+logs/
+*.log
+*.json
+
+# Datos
+data/
+nodes/
+indices/
+
+# Archivos temporales
+*.tmp
+*.bak
+.DS_Store
+__pycache__/
+

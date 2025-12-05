@@ -1,0 +1,22 @@
+[Unit]
+Description=Metricbeat
+Documentation=https://www.elastic.co
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=g2
+Group=g2
+WorkingDirectory=/home/g2/ELK/metricbeat-9.2.1
+
+ExecStart=/home/g2/ELK/metricbeat-9.2.1/metricbeat -c /home/g2/ELK/metricbeat-9.2.1/metricbeat.yml
+
+Restart=always
+RestartSec=10
+
+StandardOutput=journal
+StandardError=inherit
+
+[Install]
+WantedBy=multi-user.target
