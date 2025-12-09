@@ -1,0 +1,26 @@
+[
+  {
+    "id": "gFMZwJoB_ng_JLRryeaj",
+    "name": "metricbeat-key",
+    "api_key": "hh01Bw7gE8r7mPPsFPBZxA",
+    "encoded": "Z0ZNWndKb0JfbmdfSkxScnllYWo6aGgwMUJ3N2dFOHI3bVBQc0ZQQlp4QQ=="
+  },
+  {
+    "id": "jAbx3ZoB8_buqiHcbWPg",
+    "name": "logstash-key",
+    "api_key": "3ynGrlurs3CySNbLdXXDRg",
+    "encoded": "akFieDNab0I4X2J1cWlIY2JXUGc6M3luR3JsdXJzM0N5U05iTGRYWERSZw=="
+  },
+  {
+    "id": "8weo3poB8_buqiHcR9gy",
+    "name": "script_querys_key",
+    "api_key": "SN6PYZxz7rRFbsfxDOAngQ",
+    "encoded": "OHdlbzNwb0I4X2J1cWlIY1I5Z3k6U042UFlaeHo3clJGYnNmeERPQW5nUQ=="
+  },
+  {
+    "id": "odWT7ZoB8FUZJiYYgY6S",
+    "name": "chatbot-noticias-key",
+    "api_key": "kbAPUZhO1R_E8nOUedLyUg",
+    "encoded": "b2RXVDdab0I4RlVaSmlZWWdZNlM6a2JBUFVaaE8xUl9FOG5PVWVkTHlVZw=="
+  }
+]
